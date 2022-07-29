@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin: 33px auto;
+  }
+  
+  .header a:hover,
+  .header img:hover {
+    opacity: .5;
+  }
+  
+  .header a:active,
+  .header img:active {
+    opacity: .3;
+  }
+  
+  .header_menu {
+    margin: 0px auto 0 60px;
+  }
+  
+  
+  .header_list {
+    align-items: center;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+  }
+  
+  .header_list a {
+    color: #1E0606;
+    margin-right: 20px;
+  }
+  
+  
+  .header button {
+    margin-right: 19px;
+    background: #FFFFFF;
+  }

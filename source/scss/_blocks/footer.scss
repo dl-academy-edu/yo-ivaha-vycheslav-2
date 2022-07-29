@@ -1,0 +1,134 @@
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating ul {
+  display: flex;
+  margin: 0px 55px 0 30px;
+}
+
+.rating a:hover {
+  color: #C29974;
+}
+
+.footer {
+  background: #434343;
+  margin-top: 50px
+}
+
+
+.footer_colum {
+  display: flex;
+  padding: 100px 0 35px;
+  justify-content: space-between;
+}
+
+.footer_colum a:hover {
+  opacity: .5;
+}
+
+.footer_colum a:active {
+  opacity: .2;
+}
+
+.footer_colum div {
+  width: 375px;
+}
+
+.footer_company {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 15px 100px 0;
+  align-items: center;
+  border-top: solid 1px;
+  border-color: #666666;
+}
+
+
+.footer span {
+  color: #AAAAAA;
+  border-bottom: solid 1px;
+  border-color: #666666;
+  display: block;
+  padding: 0px 0px 23px;
+}
+
+.footer a {
+  color: #FFFFFF;
+}
+
+.social {
+  display: flex;
+}
+
+.social a:hover {
+  opacity: .6;
+}
+
+.social a:active {
+  opacity: .3;
+}
+
+.navigation_list li {
+  margin: 25px 3px -9px;
+}
+
+.information_list li {
+  margin: 26px 0px -10px;
+}
+
+
+.form_email input {
+  background: #666666;
+  padding: 5px 10px 5px;
+  width: 400px;
+  color: #FFFFFF;
+  
+}
+
+.footer_company .web {
+  margin-right: 65px;
+  color: #A2A2A2;
+}
+
+.footer_company .web:hover {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+.footer_company .web:active {
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+
+
+.copyright {
+  margin-left: -10px;
+  color: white;
+}
+
+
+.form_email {
+  display: flex;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.form_email input:focus {
+  border-color: #FFFFFF;
+  outline: none;
+}
+
+.form_email input:hover {
+  border-color: #FFFFFF;
+  outline: none;
+}
+
+.form_email ::placeholder {
+  color: #FFFFFF;
+}
+
+.social li {
+  margin-right: 10px;
+}
