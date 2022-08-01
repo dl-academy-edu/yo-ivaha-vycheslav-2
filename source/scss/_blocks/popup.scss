@@ -1,0 +1,40 @@
+.popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(125, 151, 218, 0.8);
+    display: none;
+  }
+  
+  .popup_open {
+    display: flex;
+  }
+  
+  .popup_close {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    cursor: pointer;
+  }
+  
+  .popup_close img:hover {
+    opacity: .6;
+  }
+  
+  .popup_close img:active {
+    opacity: .3;
+  }
+  
+  .form_contact_popup {
+    width: 680px;
+    background: #E5EAF8;
+    padding: 42px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
