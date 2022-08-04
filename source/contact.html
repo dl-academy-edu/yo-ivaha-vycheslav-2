@@ -16,26 +16,8 @@
 </head>
 
 <body>
-    <header class="header container">
-        <a href="index.html">
-            <img src="img/DLK.png" alt="">
-        </a>
-        <nav class="header_menu">
-            <ul class="header_list undotted uppercase">
-                <li>
-                    <a href="blog.html">Blog</a>
-                </li>
-                <li>
-                    <a href="catalog.html">Catalog</a>
-                </li>
-                <li>
-                    <a href="#">About Us</a>
-                </li>
-            </ul>
-        </nav>
-        <button class="border_none"><img src="img/magnifier.svg" alt=""></button>
-        <a href="contact.html" class="fat uppercase">Contact Us</a>
-    </header>
+    
+    @@include('blocks/header.html')
 
     <main class="container">
         <section>
@@ -89,118 +71,8 @@
 
     </main>
 
-    <footer class="footer">
-        <div class="footer_colum container">
-            <div class="navigation">
-                <span>Navigation</span>
-                <ul class="navigation_list undotted">
-                    <li>
-                        <a href="#">About Us</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#">Design Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Featured On</a>
-                    </li>
-                    <li>
-                        <a href="#">2018 Holiday Catalog</a>
-                    </li>
-                    <li>
-                        <a href="#">Shop By Designer</a>
-                    </li>
-                </ul>
-            </div>
+    @@include('blocks/footer.html')
 
-            <div class="information">
-                <span>Customer Information</span>
-                <ul class="information_list undotted">
-                    <li>
-                        <a href="contact.html">Contact Us</a>
-                    </li>
-                    <li>
-                        <a href="#">Sale Exclusions</a>
-                    </li>
-                    <li>
-                        <a href="#">Shipping & Returns</a>
-                    </li>
-                    <li>
-                        <a href="#">Terms & Conditions</a>
-                    </li>
-                    <li>
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#">Search</a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="connect">
-                <span>Connect</span>
-                <form class="form_email">
-                    <input type="email" id="Email_input" placeholder="Email">
-                    <button type="submit" class="button_primary">Join</button>
-                </form>
-                <ul class="social undotted">
-                    <li>
-                        <a href="#">
-                            <img src="img/Facebook.svg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/Twitter.svg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/Pinterest.svg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="img/Instagram.svg" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="footer_company container">
-            <div class="rating">
-                <a href="#">Company Rating</a>
-                <ul class="star undotted">
-                    <li>
-                        <input type="radio" id="5_star" name="star" class="radio_star_input" value="5">
-                        <label for="5_star" class="radio_star_label"></label>
-                    </li>
-                    <li>
-                        <input type="radio" id="4_star" name="star" class="radio_star_input" value="4">
-                        <label for="4_star" class="radio_star_label"></label>
-                    </li>
-                    <li>
-                        <input type="radio" id="3_star" name="star" class="radio_star_input" value="3">
-                        <label for="3_star" class="radio_star_label"></label>
-                    </li>
-                    <li>
-                        <input type="radio" id="2_star" name="star" class="radio_star_input" value="2">
-                        <label for="2_star" class="radio_star_label"></label>
-                    </li>
-                    <li>
-                        <input type="radio" id="1_star" name="star" class="radio_star_input" value="1">
-                        <label for="1_star" class="radio_star_label"></label>
-                    </li>
-                </ul>
-            </div>
-            <p class="copyright">Copyright © 2018 Dlk • Design Life Kids</p>
-            <a href="#" class="web">Web Design — Direct Line Development</a>
-        </div>
-
-    </footer>
 </body>
 
 </html>

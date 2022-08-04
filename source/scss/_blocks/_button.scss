@@ -1,0 +1,20 @@
+.button_primary {
+    background: black;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 9px 22px
+  }
+  
+  .button_primary:hover {
+    background: #C29974;
+  }
+  
+  .button_primary:active {
+    background: #CFAF91;
+  }
